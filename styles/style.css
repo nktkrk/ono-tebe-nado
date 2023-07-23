@@ -2,13 +2,14 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    margin: 92px 50px;
+    padding: 92px 50px;
 }
 
 .cover {
@@ -23,13 +24,13 @@ header {
 
 .lots {
     display: flex;
-    margin: 180px 50px;
+    padding: 180px 50px;
     flex-direction: column;
-    width: 100%;
+
 }
 
 .about {
-    margin: 0 50px;
+    padding: 0 50px;
     display: grid;
     grid-template-columns: 430px auto;
 }
@@ -38,7 +39,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 180px 50px 90px;
+    padding: 180px 50px 90px;
 }
 
 .header_menu {
@@ -181,7 +182,6 @@ footer {
     list-style: none;
     display: flex;
     gap: 25px;
-    max-width: 1340px;
     flex-wrap: wrap;
 }
 
@@ -205,6 +205,7 @@ footer {
     min-height: 450px;
     background-size: cover;
     background-position: center;
+
 }
 
 .card-link {
@@ -295,6 +296,11 @@ footer {
     font-size: 18px;
     font-style: normal;
     line-height: 24.3px;
+}
+
+.footer__address a {
+    text-decoration-line: none;
+    border-bottom: 1px solid;
 }
 
 .footer__menu {
