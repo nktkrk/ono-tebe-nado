@@ -2,11 +2,10 @@
 
 html {
     scroll-behavior: smooth;
-    width: 1550px;
+    width: 100vw;
 }
 
 header {
-    width: 100vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
@@ -14,7 +13,6 @@ header {
 }
 
 .cover {
-    width: 100vw;
     display: flex;
     position: relative;
     height: 757px;
@@ -25,8 +23,6 @@ header {
 }
 
 .lots {
-    width: 100vw;
-    width: 100vw;
     display: flex;
     padding: 180px 50px;
     flex-direction: column;
@@ -34,14 +30,12 @@ header {
 }
 
 .about {
-    width: 100vw;
     padding: 0 50px;
     display: grid;
     grid-template-columns: 430px auto;
 }
 
 footer {
-    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
