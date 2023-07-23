@@ -183,6 +183,7 @@ footer {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .lots__card-list-item {
